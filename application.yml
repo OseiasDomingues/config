@@ -1,6 +1,9 @@
 spring:
     application:
       name: book-services
+    mvc:
+        pathmatch:
+            matching-strategy: ANT_PATH_MATCHER
     datasource:
         driverClassName: org.h2.Driver
         password: ''
